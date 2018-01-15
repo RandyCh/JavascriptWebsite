@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        #table1 {
+            border: 1px solid black;
+        }
+        #row {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: darkturquoise;
+        }
+        #data {
+            border: 1px solid black;
+            border-collapse: collapse;
+            background-color: lemonchiffon;
+        }
+        }
+
+    </style>
+    <script language="javascript">
+
+        document.write("<table id='table1'>");
+        document.write("<tr id='row'>");
+        for (i = 2; i < 10; i++) {
+            document.write("<td id='data'>");
+            for (j = 1; j < 10; j++) {
+                document.write(i + "*" + j + "=" + (i * j) + "<br>");
+            }
+            document.write("</td>");
+        }
+        document.write("</tr>");
+        document.write("</table>");
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
